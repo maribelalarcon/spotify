@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-weight:bold;
+}
+p{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'roboto' sans-serif;
+}
+
+header .container{
+    display: grid;
+}
+
+header .container-navbar{
+    background-color:rgb(5, 5, 5);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    
+}
+
+header .container-navbar a{
+    padding: 5px 12px;
+    text-decoration: none;
+    color: white;
+    width: 90%;
+    margin: 20px;
+    font-weight: bold; 
+}
+
+img{
+    width: 100px;
+}
+
+button{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px ;
+    border: 1px solid;
+    color: white;
+    background-color: black;
+}
+
+.button-white{
+    background-color: white;
+    color: black;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1d75de;
+    color: white;
+    padding: 80px 40px;
+}
+
+.parrafo{
+    margin: 40px 8px;
+}
+
+#premium{
+
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+    text-align: center;
+
+}
+
+.container-box{
+    display: flex;
+    gap: 50px;   
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;    
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    padding: 20px;
+}
